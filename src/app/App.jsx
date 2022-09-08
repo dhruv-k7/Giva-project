@@ -64,7 +64,7 @@ function App(){
         <Router>
             <Routes>
                 <Route path='/login' element={<Login findUser={findUser} />} />
-                <Route path='/signup' element={<Signup addUser={addUser} />} />
+                <Route path='/' element={<Signup addUser={addUser} />} />
                 <Route path='/Post' element={<Post Table={Table} addEntry={addEntry} DeleteEntry={DeleteEntry} UpdateEntry={UpdateEntry}/>} />
             </Routes>
         </Router>
